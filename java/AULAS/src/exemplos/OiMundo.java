@@ -39,7 +39,7 @@ public class OiMundo {
 		
 		
 		
-		
+		leia.close();
 		
 	}
 	
