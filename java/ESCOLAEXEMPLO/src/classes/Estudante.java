@@ -1,6 +1,6 @@
 package classes;
 
-public class Estudante {
+public abstract class Estudante {
 	
 	//atributos - check - segurança
 	private int matricula;
@@ -83,7 +83,14 @@ public class Estudante {
 	}
 	
 	public void tirarNotas(double pontos) {
-		this.pontos = this.pontos - pontos;
+		if (this.pontos>= pontos ) {
+			this.pontos = this.pontos - pontos;
+		}
+		else {
+			System.out.println("Impossivel tira a nota!!!");
+		}
+		
+	
 		
 	}
 
