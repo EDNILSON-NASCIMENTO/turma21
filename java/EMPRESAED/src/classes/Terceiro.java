@@ -24,6 +24,4 @@ public class Terceiro extends Funcionario {
 		return (horasTrabalhadas*valorHora)+adicional;
 	}
 	
-	
-	
 }
